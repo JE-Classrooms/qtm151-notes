@@ -7,7 +7,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
 
-<title>introduction slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>lecture1 slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 <!-- General and theme style sheets -->
 <link rel="stylesheet" href="https://unpkg.com/reveal.js@4.0.2/dist/reveal.css">
@@ -14645,25 +14645,39 @@ div.jp-OutputPrompt {
 </div>
 </div>
 </div>
-</div></section><section>
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="-Introduction-to-GitHub-and-Python-"><span style="color:darkblue"> Introduction to GitHub and Python </span><a class="anchor-link" href="#-Introduction-to-GitHub-and-Python-">&#182;</a></h2>
+<h2 id="-Introduction-to-Git-and-GitHub-"><span style="color:darkblue"> Introduction to Git and GitHub </span><a class="anchor-link" href="#-Introduction-to-Git-and-GitHub-">&#182;</a></h2><p><font size="5"></p>
+<p><strong>Learning Objectives:</strong></p>
+<ol>
+<li><p>What is GitHub and why should I use it?</p>
+</li>
+<li><p>What is a Version Control System?</p>
+</li>
+<li><p>What is Git? What is the difference between Git and GitHub?</p>
+</li>
+<li><p>What is the GitHub workflow and how it relates to Git?</p>
+</li>
+<li><p>How to create, clone and make changes in a GitHub repository?</p>
+</li>
+</ol>
+
 </div>
 </div>
 </div>
-</div></section><section>
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font size="5"></p>
+<h2 id="-Motivation-"><span style="color:darkblue"> Motivation </span><a class="anchor-link" href="#-Motivation-">&#182;</a></h2><p><font size="5"></p>
 <ul>
 <li>Data science is the use of data to answers questions and guide <strong>decision making</strong></li>
 </ul>
@@ -14692,24 +14706,13 @@ div.jp-OutputPrompt {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="-Use-Case:-Decathlon-"><span style="color:darkblue"> Use Case: Decathlon </span><a class="anchor-link" href="#-Use-Case:-Decathlon-">&#182;</a></h2><p>This example was inspired by Ishan Gaba at Simplilearn</p>
-
-</div>
-</div>
-</div>
-</div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><font size="5"></p>
 <p>In 2019 Decathlon had 1030 stores across 28 countries and nearly 100,000 employees</p>
 
 </div>
 </div>
 </div>
-</div></section><section>
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14735,14 +14738,13 @@ div.jp-OutputPrompt {
 </div>
 </div>
 </div>
-</div></section><section>
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<hr>
 <p><font size="5"></p>
 <p><strong>GitHub visibility:</strong></p>
 <ul>
@@ -14754,26 +14756,215 @@ div.jp-OutputPrompt {
 </li>
 </ul>
 <p>⚡GitHub improves organization and visualization by taking advantage of the <span style="color:darkblue"> **Version Control System** </span></p>
+<p><font size="1">
+Images in this document were taken from the internet.</p>
 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="images/vcs.png" alt="vontrol"></p>
 
-     </div>
 </div>
 </div>
 </div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="-What-is-a-Version-Control-System-(VCS)?-"><span style="color:darkblue"> What is a Version Control System (VCS)? </span><a class="anchor-link" href="#-What-is-a-Version-Control-System-(VCS)?-">&#182;</a></h2><p><font size="5"></p>
+<ul>
+<li><p>It is a system that records all the changes made to a file (or a set of files)</p>
+</li>
+<li><p>The idea is to have access to different versions of the project</p>
+</li>
+<li><p><strong>Example</strong> of <span style="color:red"> inefficient </span> version control: <code>final_project_version1.py</code>, <code>final_project_version2.py</code>, <code>final_project_version3.py</code>, etc.</p>
+</li>
+</ul>
+<p>⚠️ <strong>Problems:</strong></p>
+<p>(1) increasing number of files, (2) costly to compare between different versions, (3) not easy to share</p>
+<p>⚡A VCS such as <strong>Git</strong> solves all the previous issues</p>
 
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="-What-is-the-Difference-Between-Git-and-GitHub?-"><span style="color:darkblue"> What is the Difference Between Git and GitHub? </span><a class="anchor-link" href="#-What-is-the-Difference-Between-Git-and-GitHub?-">&#182;</a></h2><p><img src="images/Gitvs_Github.png" alt="gitvshub"></p>
+
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="images/git-github.png" alt="gitvshub2"></p>
+
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="-Repository-(aka-Repo)-"><span style="color:darkblue"> Repository (aka Repo) </span><a class="anchor-link" href="#-Repository-(aka-Repo)-">&#182;</a></h2><p><font size="5"></p>
+<ul>
+<li><p>You can think of a repository as the main folder in your project that contains all the necessary information</p>
+</li>
+<li><p>Repositories can contain other folders within them, or they can be formed only by separate files</p>
+</li>
+<li><p>You will generally have two copies of the repository: local copy (your computer or the cloud computer) and the online copy (on GitHub)</p>
+</li>
+<li><p>Here is an example of the repository I created for this class: <a href="https://github.com/JE-Classrooms/qtm151-notes">https://github.com/JE-Classrooms/qtm151-notes</a></p>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="-GitHub-Workflow:-commit-pull-push-"><span style="color:darkblue"> GitHub Workflow: commit-pull-push </span><a class="anchor-link" href="#-GitHub-Workflow:-commit-pull-push-">&#182;</a></h2>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="images/workflow.png" alt="worflow"></p>
+
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="-Creating-a-New-Repository-"><span style="color:darkblue"> Creating a New Repository </span><a class="anchor-link" href="#-Creating-a-New-Repository-">&#182;</a></h2><p><font size="5"></p>
+<ol>
+<li><p>Login to your GitHub account</p>
+</li>
+<li><p>In the dashboard on the left click on the green button <span style="color:green"> Create repository </span></p>
+</li>
+</ol>
+
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="giffs/create_repo.gif" alt="Alt Text"></p>
+
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><font size="5"></p>
+<ol>
+<li><p>Type a short, memorable name for your repository. We will use <code>demo-repo</code>.</p>
+</li>
+<li><p>You can optionally add a description. For this example we will use  "My first repository on GitHub."</p>
+</li>
+<li><p>Choose repository visibility. In this example we will leave it as public.</p>
+</li>
+<li><p>Choose whether oyu want to initialize the repository with a README.</p>
+</li>
+<li><p>Create the repository.</p>
+</li>
+</ol>
+
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="-Cloning-the-new-repository-to-a-local-machine-"><span style="color:darkblue"> Cloning the new repository to a local machine </span><a class="anchor-link" href="#-Cloning-the-new-repository-to-a-local-machine-">&#182;</a></h2><p>For today's class we will only focus on Cloning the repository into our local machines. We will follow this process:</p>
+<ol>
+<li><p>determine the folder where you want to save your repository (I recommend you have a specific folder for this class)</p>
+</li>
+<li><p>Clone the repository into the local folder you selected in step 1. We will use GitHub desktop during class to manage cloning and the GitHub workflow (I will also provide videos with the Command Prompt version of the examples we cover in class)</p>
+</li>
+<li><p>Check the status of the repository</p>
+</li>
+<li><p>Add a <code>txt</code> README file, commit and push the file</p>
+</li>
+<li><p>Check the repository on GitHub</p>
+</li>
+</ol>
+
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="-Summary-"><span style="color:darkblue"> Summary </span><a class="anchor-link" href="#-Summary-">&#182;</a></h2><ol>
+<li><p>We learned what is Git and GitHub, why we should use them, and how to use them.</p>
+</li>
+<li><p>We learned what is a  Version Control System and that Git is one provider of Version Control services.</p>
+</li>
+<li><p>We understand the difference between Git and GitHub</p>
+</li>
+<li><p>We learned how to create, clone, and make changes in a GitHub repository using GitHub desktop (see the video on Canvas to learn how to do the same using Git commands)</p>
+</li>
+</ol>
+
+</div>
+</div>
+</div>
 </div></section></section>
 </div>
 </div>
