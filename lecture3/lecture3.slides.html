@@ -7,7 +7,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
 
-<title>lecture2 slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>lecture3 slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 <!-- General and theme style sheets -->
 <link rel="stylesheet" href="https://unpkg.com/reveal.js@4.0.2/dist/reveal.css">
@@ -14641,223 +14641,20 @@ div.jp-OutputPrompt {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="-Last-Class-Review-"><span style="color:darkblue"> Last Class Review </span><a class="anchor-link" href="#-Last-Class-Review-">&#182;</a></h2><p><font size="5"></p>
-<ol>
-<li><p>What is Git, GitHub, Version Control Systems, differences and relevance</p>
-</li>
-<li><p>How to create, clone and make changes in a GitHub repository using GitHub desktop?</p>
-</li>
-</ol>
-<p><span style="color:red"> Questions?? </span></p>
-
-</div>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="-Introduction-to-Python-"><span style="color:darkblue"> Introduction to Python </span><a class="anchor-link" href="#-Introduction-to-Python-">&#182;</a></h2><p><font size="5"></p>
+<h2 id="-GitHub-Classroom,-AWS-Academy-and-Jupyter-Notebooks--"><span style="color:darkblue"> GitHub Classroom, AWS Academy and Jupyter Notebooks  </span><a class="anchor-link" href="#-GitHub-Classroom,-AWS-Academy-and-Jupyter-Notebooks--">&#182;</a></h2><p><font size="5"></p>
 <p><strong>Learning Objectives:</strong></p>
 <ol>
-<li><p>What is Python and why should I learn it?</p>
+<li><p>What is the basic idea of cloud computing and AWS Academy?</p>
 </li>
-<li><p>What are Virtual Environments and why they are useful?</p>
+<li><p>How to login to AWS Academy and access the Learner Lab?</p>
 </li>
-<li><p>How to create and use a new Virtual Environment?</p>
+<li><p>How to create and use a Notebook Instance in Amazon Sagemaker?</p>
 </li>
-<li><p>How to run Python using the Terminal and Jupyter Notebook?</p>
+<li><p>How to accept Assignments with GitHub Classroom?</p>
 </li>
-<li><p>How to read Python errors and define variables in Python?</p>
+<li><p>How to clone the repositories from GitHub Classroom Assignments to a Notebook Instance?</p>
 </li>
-</ol>
-
-</div>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="-What-is-Python-"><span style="color:darkblue"> What is Python </span><a class="anchor-link" href="#-What-is-Python-">&#182;</a></h2><p><font size="5"></p>
-<ul>
-<li><p>Python is one of the most popular programming languages in the world</p>
-</li>
-<li><p>It is easy to learn, powerful programming language</p>
-</li>
-<li><p>Pyhton is a <em>full-spectrum</em> language: it is both good for beginners and powerful for expert developers</p>
-<ul>
-<li>Programs such as <strong>Scratch</strong> are designed to get started with simple programming concepts but you cannot build professional applications with it</li>
-<li>Programs such as <strong>C++</strong> are powerful but unwelcoming</li>
-</ul>
-</li>
-</ul>
-
-</div>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="-Example-"><span style="color:darkblue"> Example </span><a class="anchor-link" href="#-Example-">&#182;</a></h3><p><font size="5"></p>
-<p>A program as simple as printing Hello World! looks complicated in C++</p>
-<div class="highlight"><pre><span></span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span><span class="cp"></span>
-
-<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="w">    </span><span class="n">std</span><span class="o">::</span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;Hello World!&quot;</span><span class="p">;</span><span class="w"></span>
-<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
-</pre></div>
-<p>Here is how it looks in Python</p>
-<div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello World!&#39;</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="-A-more-complicated-task?-"><span style="color:darkblue"> A more complicated task? </span><a class="anchor-link" href="#-A-more-complicated-task?-">&#182;</a></h3><p><font size="5"></p>
-<p>What would it take to write a program that:</p>
-<p>(1) accesses an external website</p>
-<p>(2) downloads the content to your app in memory</p>
-<p>(3) then displays a subsection of that content to the user</p>
-
-</div>
-</div>
-</div>
-</div></section></section><section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">requests</span>
-<span class="n">resp</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;http://olympus.realpython.org&quot;</span><span class="p">)</span>
-<span class="n">html</span> <span class="o">=</span> <span class="n">resp</span><span class="o">.</span><span class="n">text</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">html</span><span class="p">[</span><span class="mi">86</span><span class="p">:</span><span class="mi">132</span><span class="p">])</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>&lt;h2&gt;Please log in to access Mount Olympus:&lt;/h2
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font size="5"></p>
-<ul>
-<li><p>A few trivial lines can unleash incredible power</p>
-</li>
-<li><p>That is why websites as big as YouTube are written in Python</p>
-</li>
-<li><p>Why should I <strong>not</strong> learn it?</p>
-</li>
-</ul>
-
-</div>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="-Setting-up-Python-"><span style="color:darkblue"> Setting up Python </span><a class="anchor-link" href="#-Setting-up-Python-">&#182;</a></h2><p><font size="5"></p>
-<p><strong>Python Implementations:</strong></p>
-<ul>
-<li><p>CPyhton: reference implementation commonly used for web and applications development</p>
-</li>
-<li><p>Anaconda: specialized Python distribution tailored for scientific programming such as data science and machine learning</p>
-</li>
-<li><p>Iron Python: open-source implementation of Python built on the .NET proprietary software framework developed by Microsoft</p>
-</li>
-</ul>
-
-</div>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font size="5"></p>
-<p><strong>For this class</strong></p>
-<ul>
-<li><p>We will use the Python implementation from Anaconda</p>
-</li>
-<li><p>You should already have installed Anaconda and Python (from Assignment 2)</p>
-</li>
-<li><p>Let's check that Python is install in your Anaconda base environment</p>
-</li>
-</ul>
-
-</div>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font size="5"></p>
-<p><em>On Windows:</em></p>
-<ol>
-<li><p>open Anaconda Prompt</p>
-</li>
-<li><p>type <code>python --version</code></p>
+<li><p>How to perform the GitHub workflow (add, commit, push) in a Notebook Instance?</p>
 </li>
 </ol>
 
@@ -14871,19 +14668,49 @@ div.jp-OutputPrompt {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font size="5"></p>
-<p><em>On MacOS:</em></p>
-<ol>
-<li><p>There is a preinstalled Python version in MacOS. To check, open your terminal and type <code>python --version</code></p>
+<h3 id="-We-are-moving-from-the-local-to-the-cloud-workflow-"><span style="color:darkblue"> We are moving from the local to the cloud workflow </span><a class="anchor-link" href="#-We-are-moving-from-the-local-to-the-cloud-workflow-">&#182;</a></h3><p><img src="images/cloud.png" alt="cloud"></p>
+
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="-What-is-cloud-computing--"><span style="color:darkblue"> What is cloud computing  </span><a class="anchor-link" href="#-What-is-cloud-computing--">&#182;</a></h3><p><font size="5"></p>
+<ul>
+<li><p>On demand delivery of computing resources over the internet</p>
 </li>
-<li><p>You <strong>do not</strong> need to uninstall the preinstalled Python version</p>
+<li><p>The idea is that instead of <strong>buying, owning, and maintaining</strong> physical data centers and servers, you can access technology services on an as-need basis:</p>
+<p>(1) computing power</p>
+<p>(2) storage</p>
+<p>(3) databases</p>
 </li>
-<li><p>The preinstalled Python and the Python that comes with the Anaconda installation are two different implementations with different executables</p>
+</ul>
+
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="-Who-is-using-cloud-computing--"><span style="color:darkblue"> Who is using cloud computing  </span><a class="anchor-link" href="#-Who-is-using-cloud-computing--">&#182;</a></h3><p><font size="5"></p>
+<ul>
+<li><p>Organizations of every type, size, and industry are using the cloud for a wide variety of use cases:</p>
+<p>(1) data backup</p>
+<p>(2) disaster recovery</p>
+<p>(3) virtual desktops</p>
+<p>(4) software development and testing</p>
+<p>(5) big data analytics</p>
 </li>
-<li><p>After you install Anaconda, when you open your terminal, you should see (base) which is the default Anaconda environment</p>
-</li>
-</ol>
-<p><img src="images/mac.png" alt="mac"></p>
+</ul>
 
 </div>
 </div>
@@ -14896,13 +14723,13 @@ div.jp-OutputPrompt {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><font size="5"></p>
-<ol>
-<li><p>Now you can type <code>python --version</code> and you will see the Python Anaconda version</p>
+<ul>
+<li><p><strong>Examples:</strong></p>
+<p>(1) Healthcare companies are using the cloud to develop more personalized treatments for patient</p>
+<p>(2) Financial services companies are using the cloud to power real-time fraud detection and prevention</p>
+<p>(3) Video game makers are using the cloud to deliver online games to millions of players around the world</p>
 </li>
-<li><p>To see the two different Python versions, you can do the following:</p>
-</li>
-</ol>
-<p><img src="images/mac2.png" alt="mac2"></p>
+</ul>
 
 </div>
 </div>
@@ -14914,14 +14741,30 @@ div.jp-OutputPrompt {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="-Virtual-Environments-(VE)-and-why-They-are-Useful-"><span style="color:darkblue"> Virtual Environments (VE) and why They are Useful </span><a class="anchor-link" href="#-Virtual-Environments-(VE)-and-why-They-are-Useful-">&#182;</a></h2><p><font size="5"></p>
+<h3 id="-Important-cloud-computing-providers-"><span style="color:darkblue"> Important cloud computing providers </span><a class="anchor-link" href="#-Important-cloud-computing-providers-">&#182;</a></h3><p><img src="images/cloud3.png" alt="cloud3"></p>
+
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="-AWS-Academy-"><span style="color:darkblue"> AWS Academy </span><a class="anchor-link" href="#-AWS-Academy-">&#182;</a></h3><p><font size="5"></p>
 <ul>
-<li><p>A Virtual Environment is a <strong>directory</strong> that contains a specific <strong>collection of packages</strong></p>
+<li><p><strong>Objective:</strong> empower higher education institutions to prepare students for industry-recognized certifications and careers in the cloud</p>
 </li>
-<li><p>A package is a folder containing a set of Python scripts or modules which allow you to accomplish a defined task. <strong>Examples:</strong></p>
+<li><p>Provide access to many cloud courses</p>
+</li>
+<li><p>For students they consider their benefits to be</p>
 <ul>
-<li><a href="https://numpy.org/doc/stable/">NumPy</a>: package for scientific computing in Python</li>
-<li><a href="https://pandas.pydata.org/docs/">Pandas</a>: package for high-performance, easy-to-use data structures and data analysis in Python</li>
+<li>Land a well-paid job in one of the fastest-growing industries</li>
+<li>Gain skills hiring managers value</li>
+<li>Receive 50% discounts on AWS Certification exams</li>
+<li>Exclusive access to the Emerging Talent Community upon course completion</li>
 </ul>
 </li>
 </ul>
@@ -14938,13 +14781,11 @@ div.jp-OutputPrompt {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><font size="5"></p>
 <ul>
-<li><p><strong>Importance:</strong> imagine you are writing code for a data science project that you want to replicate in the future. Here are some advantages of creating a Virtual Environment for that project:</p>
-<ol>
-<li>We want to keep the packages that we used to create the project (dependencies) isolated from other projects</li>
-<li>We want to keep the original versions of the packages we used to create to avoid errors from deprecated methods and functions</li>
-<li>We want to make the project's code reproducible in the future</li>
-<li>We want to be able to share the project with all the necessary packages for it to work </li>
-</ol>
+<li><p>In our class we will only use the <strong>Learner Lab:</strong>  it provides a long-running sandbox environment for the exploration of AWS services</p>
+</li>
+<li><p>I added you all as students in my QTM151 learner lab class</p>
+</li>
+<li><p>To access the class, let's go through the following process:</p>
 </li>
 </ul>
 
@@ -14958,24 +14799,94 @@ div.jp-OutputPrompt {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="-Virtual-Environments-and-why-They-are-Useful-"><span style="color:darkblue"> Virtual Environments and why They are Useful </span><a class="anchor-link" href="#-Virtual-Environments-and-why-They-are-Useful-">&#182;</a></h2><p><font size="5"></p>
-<p><em>Using the terminal:</em> every time you're asked to Proceed ([y]/n)? Type "y" in the terminal</p>
+<p><font size="5"></p>
 <ol>
-<li><p>Open Anaconda Prompt in Windows or the Terminal in MacOS. You should see the (base) default VE</p>
+<li>Open the AWS Academy email and click on Get Started</li>
+</ol>
+<p><img src="images/awsa1.png" alt="awsa1"></p>
+
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><font size="5"></p>
+<ol>
+<li>Click on Student Login</li>
+</ol>
+<p><img src="images/awsa2.png" alt="awsa2"></p>
+
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><font size="5"></p>
+<ol>
+<li>Click on Create My Account</li>
+</ol>
+<p><img src="images/awsa3.png" alt="awsa3"></p>
+
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><font size="5"></p>
+<ol>
+<li>Click on Register</li>
+</ol>
+<p><img src="images/awsa4.png" alt="awsa4"></p>
+
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><font size="5"></p>
+<ol>
+<li>Accept the class</li>
+</ol>
+<p><img src="images/awsa5.png" alt="awsa5"></p>
+
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><font size="5"></p>
+<p>Explore the AWS Academy Canvas! Important considerations:</p>
+<ol>
+<li><p>how to connect to the Lab?</p>
 </li>
-<li><p>Use the Conda command <code>conda create --name qtm151</code></p>
+<li><p>If you go over the budget you cannot connect to the lab again!</p>
 </li>
-<li><p>Check the list of VEs using <code>conda env list</code></p>
-</li>
-<li><p>Activate the newly created VE using <code>conda activate qtm151</code></p>
-</li>
-<li><p>Check the packages in the VE using <code>conda list</code></p>
-</li>
-<li><p>Install the latest Python version using <code>conda install python=3.10</code></p>
-</li>
-<li><p>Check python version using <code>python --version</code></p>
-</li>
-<li><p>Install Jupyter Notebook and Jupyter Lab using <code>conda install -c conda-forge jupyterlab</code></p>
+<li><p>You have a limit of 4 hours, but you can restart the timer if you need to</p>
 </li>
 </ol>
 
@@ -14989,35 +14900,15 @@ div.jp-OutputPrompt {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="-Fetch-Origin-using-GitHub-Desktop-to-Pull-new-Information-in-the-Repo-"><span style="color:darkblue"> Fetch Origin using GitHub Desktop to Pull new Information in the Repo </span><a class="anchor-link" href="#-Fetch-Origin-using-GitHub-Desktop-to-Pull-new-Information-in-the-Repo-">&#182;</a></h3><p><font size="5"></p>
-<ol>
-<li><p>Open GitHub desktop and choose the <code>qtm151-notes</code> repository</p>
-</li>
-<li><p>From the list at the top of the screen, choose the option Fetch origin</p>
-</li>
-<li><p>Go to your <code>qtm151-notes</code> local folder and check that you have access to the new version of <code>lecture2.ipynb</code></p>
-</li>
-</ol>
-
-</div>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="-Types-of-files-we-will-use-in-this-class-"><span style="color:darkblue"> Types of files we will use in this class </span><a class="anchor-link" href="#-Types-of-files-we-will-use-in-this-class-">&#182;</a></h3><p><font size="5"></p>
+<p><font size="5"></p>
 <ul>
-<li><p>Python files: <code>.py</code> are scrips written in Python and contain instructions to accomplish a defined task</p>
-<p><strong>Example:</strong> run the <code>python_example.py</code> file in the Terminal</p>
+<li><p>We will use the <a href="https://aws.amazon.com/pm/sagemaker/?trk=8987dd52-6f33-407a-b89b-a7ba025c913c&amp;sc_channel=ps&amp;s_kwcid=AL!4422!3!532502995192!e!!g!!amazon%20sagemaker&amp;ef_id=CjwKCAjwx7GYBhB7EiwA0d8oe9YnUFSGhhvHmXkKIC1KDdXfc4r18cs7tNhYgCZ2IFEJ17ElFg9tlxoCa0MQAvD_BwE:G:s&amp;s_kwcid=AL!4422!3!532502995192!e!!g!!amazon%20sagemaker">Amazon Sagemaker</a> solution</p>
 </li>
-</ul>
-<ul>
-<li><p>Jupyter Notebook files: <code>.ipynb</code> is a notebook document created by Jupyter Notebook, such as the one we are using rigth now</p>
-<p><strong>Example:</strong> open Jupyter Lab using the Terminal and open the file <code>lecture2.ipynb</code> using Jupyter Lab</p>
+<li><p>Sagemaker makes it easier to get started with cloud computing by providing solutions that can be deployed with just a few clicks</p>
+</li>
+<li><p>Sagemaker is also a convenient option because it is part of the AWS Free Tier program</p>
+</li>
+<li><p>There are other products that you can explore but we will not cover such as the EC2 instances</p>
 </li>
 </ul>
 
@@ -15031,297 +14922,259 @@ div.jp-OutputPrompt {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="-Your-first-Python-program-using-Jupyter-Notebooks-"><span style="color:darkblue"> Your first Python program using Jupyter Notebooks </span><a class="anchor-link" href="#-Your-first-Python-program-using-Jupyter-Notebooks-">&#182;</a></h2>
+<h3 id="-Creating-a-Notebook-Instance-in-Sagemaker-"><span style="color:darkblue"> Creating a Notebook Instance in Sagemaker </span><a class="anchor-link" href="#-Creating-a-Notebook-Instance-in-Sagemaker-">&#182;</a></h3><p><font size="5"></p>
+<ol>
+<li><p>Open the lab and click the AWS link to get to the AWS console</p>
+</li>
+<li><p>In the AWS console search for Amazon Sagemaker. When you get into Sagemaker, here is what you should see:</p>
+</li>
+</ol>
+<p><img src="images/sagemaker1.png" alt="sagemaker1"></p>
+
 </div>
 </div>
 </div>
-</div>
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><font size="5"></p>
 <ol>
-<li>Hello world</li>
+<li><p>Click in Notebook Instances</p>
+</li>
+<li><p>Click in Create notebook instance and follow the process</p>
+</li>
+<li><p>Once the status is InService, click on the Open JupyterLab link</p>
+</li>
 </ol>
 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="-GitHub-Classroom-"><span style="color:darkblue"> GitHub Classroom </span><a class="anchor-link" href="#-GitHub-Classroom-">&#182;</a></h3><p><font size="5"></p>
+<ul>
+<li><p>For Assignments and Quizzes I will use the GitHub classroom workflow</p>
+</li>
+<li><p>I will post the GitHub classroom links for the Assignments and Quizzes on Canvas</p>
+</li>
+<li><p>The first time you click on one of the GitHub classroom links, you have to go through the following process:</p>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><font size="5"></p>
 <ol>
-<li>Python as a calculator</li>
+<li>Authorize GitHub Classroom to verify your GitHub identity</li>
 </ol>
+<p><img src="images/ghc1.png" alt="ghc1"></p>
 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><font size="5"></p>
 <ol>
-<li>Syntax error</li>
+<li>Join the Classroom by selecting your name from the list </li>
 </ol>
+<p><img src="images/ghc2.png" alt="ghc2"></p>
 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello, World)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>
-<span class="ansi-cyan-intense-fg ansi-bold">  File </span><span class="ansi-green-intense-fg ansi-bold">&#34;&lt;ipython-input-1-f652d92af2e1&gt;&#34;</span><span class="ansi-cyan-intense-fg ansi-bold">, line </span><span class="ansi-green-intense-fg ansi-bold">1</span>
-<span class="ansi-yellow-intense-fg ansi-bold">    print(&#34;Hello, World)</span>
-<span class="ansi-white-intense-fg ansi-bold">                        ^</span>
-<span class="ansi-red-intense-fg ansi-bold">SyntaxError</span><span class="ansi-red-intense-fg ansi-bold">:</span> EOL while scanning string literal
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<ul>
-<li><p>What is string?</p>
-<p>A string literal is text enclosed in quotation marks</p>
-</li>
-<li><p>What is EOL?</p>
-<p>EOL stands for end of line. the message tells you that Python got to the end of a line while reading a string literal. String literals must be terminated with a quotation mark before the end of a line.</p>
-</li>
-</ul>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><font size="5"></p>
+<p><strong>After the first time you click the GitHub Classroom link,</strong> you will start from this part of the process</p>
 <ol>
-<li>Runtime errors</li>
+<li>Accept the Assignment</li>
 </ol>
+<p><img src="images/ghc3.png" alt="ghc3"></p>
 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">Hello</span><span class="p">,</span> <span class="n">World</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-2-7fbed5fc27f5&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>print<span class="ansi-yellow-intense-fg ansi-bold">(</span>Hello<span class="ansi-yellow-intense-fg ansi-bold">,</span> World<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-
-<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;Hello&#39; is not defined</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Whenever a runtime error occurs Python stops executing the program and displays several lines of text called a <strong>traceback</strong></p>
-<p><strong>How to read tracebacks?</strong> read them from the bottom up</p>
-<ul>
-<li><p>The last line of the traceback tells you the name of the error and the error message.</p>
-</li>
-<li><p>The second to last line shows you the code that produced the error.</p>
-</li>
-<li><p>The third to last line tells you the name of the file and the line number.</p>
-<ul>
-<li><p>Because we are using Jupyter Notebooks we get &lt;ipython-input-2-7fbed5fc27f5&gt; instead of a file name</p>
-</li>
-<li><p>Give an example with the Python file <code>python_example.py</code></p>
-</li>
-</ul>
-</li>
-</ul>
+<p><font size="5"></p>
+<ol>
+<li>Wait for the Assignment repository to be created. Refresh the page to see updates</li>
+</ol>
+<p><img src="images/ghc4.png" alt="ghc4"></p>
 
 </div>
 </div>
 </div>
-</div>
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="-Creating-Variables-"><span style="color:darkblue"> Creating Variables </span><a class="anchor-link" href="#-Creating-Variables-">&#182;</a></h3><p><font size="5"></p>
-<ul>
-<li><p>A variable is a name that you can assign to a value and then use it to refer to that value throughout your code</p>
-</li>
-<li><p>Variables keep values accessible. Particularly important if the value is the result of a time consuming operation</p>
-</li>
-<li><p>Variables give values context. The name <em>class_size</em> gives more context than the number 20</p>
-</li>
-<li><p><strong>Operator:</strong> an operator is a symbol such as +, -, *, =, etc</p>
-</li>
-<li><p>In Python, the assignment operator is =</p>
-</li>
-</ul>
-<p>Hello, World example with the assignment operator</p>
+<p><font size="5"></p>
+<ol>
+<li>Get the link for the repository and click it</li>
+</ol>
+<p><img src="images/ghc5.png" alt="ghc5"></p>
 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="-Some-rules-when-creating-Variables-"><span style="color:darkblue"> Some rules when creating Variables </span><a class="anchor-link" href="#-Some-rules-when-creating-Variables-">&#182;</a></h3><p><font size="5"></p>
+<p><font size="5"></p>
+<ol>
+<li>You have now access to your Assignment's repository and you can clone it </li>
+</ol>
+<p><img src="images/ghc6.png" alt="ghc6"></p>
+
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="-Cloning-the-Assignment-Repository-to-the-Notebook-Instance-"><span style="color:darkblue"> Cloning the Assignment Repository to the Notebook Instance </span><a class="anchor-link" href="#-Cloning-the-Assignment-Repository-to-the-Notebook-Instance-">&#182;</a></h3><p><font size="5"></p>
 <ul>
-<li><p>Variable names may contain uppercase and lowercase letters (A–Z, a–z), digits (0–9), and underscores (_), but they cannot begin with a digit.</p>
+<li><p>I will use the <code>Example of a quiz</code> Assignment to show you how to perform the cloning process</p>
 </li>
-<li><p>Just because a variable name is valid doesn't mean that it's a good name.</p>
+<li><p>Once you accept the Assignment, you will have access to a repo that looks like this:</p>
 </li>
-<li><p>** Descriptive names are better than short names <code>seconds_per_hour = 3600</code> is better than <code>s = 3600</code></p>
+</ul>
+<p><img src="images/ghcl1.png" alt="ghcl1"></p>
+
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><font size="5"></p>
+<ul>
+<li><p>To clone the repo, click on the green button: Code, HTTPS and copy the link</p>
 </li>
-<li><p>In Python it is prefer to use <code>lower_case_with_underscores</code> instead of <code>mixedCase</code></p>
+<li><p>With that linked copied, go to your Jupyter lab and click on the Git button to obtain a screen like this:</p>
 </li>
-<li><p>See Python Enhancement Proposal (<a href="https://pep8.org/">PEP 8</a>) for the official style guide for writing Python.</p>
+</ul>
+<p><img src="images/ghcl2.png" alt="ghcl2"></p>
+
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><font size="5"></p>
+<ul>
+<li><p>Click on Clone a Repository and paste the link you copied from GitHub</p>
+</li>
+<li><p>You should get a new folder called example-of-a-quiz-(your GitHub ID)</p>
+</li>
+<li><p>You can now open the Jupyter Notebook in the folder and answer the questions</p>
 </li>
 </ul>
 
 </div>
 </div>
 </div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="-GitHub-workflow-in-the-Notebook-Instance-"><span style="color:darkblue"> GitHub workflow in the Notebook Instance </span><a class="anchor-link" href="#-GitHub-workflow-in-the-Notebook-Instance-">&#182;</a></h3><p><font size="5"></p>
+<ul>
+<li><p>When you are done making changes in the quiz-example.ipynb file, it is then time to submit the answers</p>
+</li>
+<li><p>The submission process uses the GitHub workflow steps: add, commit and push</p>
+</li>
+<li><p>After any change, if you click on the Git page, this is how it looks like:</p>
+</li>
+</ul>
+<p><img src="images/commit.png" alt="com1"></p>
+
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><font size="5"></p>
+<ul>
+<li><p>To add (stage) the changes click on the + symbol next to the changed files (in this case the quiz-example.ipynb)</p>
+</li>
+<li><p>Then, to commit write a Summary and a Description (for example: final version quiz-example) and click Commit</p>
+</li>
+<li><p>Enter your Name and Email for the Commit</p>
+</li>
+<li><p>Finally, to Push Committed changes click on the cloud with the arrow pointing up</p>
+</li>
+<li><p>For the push we need the GitHub username and a token (I will upload a video on how to use the token to Push the answers)</p>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -15330,13 +15183,9 @@ div.jp-OutputPrompt {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="-Summary-"><span style="color:darkblue"> Summary </span><a class="anchor-link" href="#-Summary-">&#182;</a></h2><p><font size="5"></p>
 <ol>
-<li><p>We learned what is Python, why we should learn it, and the basics on how to use it.</p>
+<li><p>We learned the basics of cloud computing and how to create a Notebook Instance using Amazon Sagemaker.</p>
 </li>
-<li><p>We learned what are Virtual Environments, why it is a good practice to use them, and how to create them and manage them using Anaconda.</p>
-</li>
-<li><p>We learned how to run Python code both in the Terminal and in Jupyter Notebooks</p>
-</li>
-<li><p>We learned how to read Python errors and create new variables</p>
+<li><p>We learned how to accept and submit Assignment and Quizzes using GitHub Classroom and a Notebook Instance.</p>
 </li>
 </ol>
 
